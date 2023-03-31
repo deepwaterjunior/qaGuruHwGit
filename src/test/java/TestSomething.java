@@ -11,7 +11,7 @@ public class TestSomething extends TestBase {
         open("/search");
 
         // test commit1234543
-        $("#uniq16784632278721").click();
+        $("""#uniq16784632278721" """ """).click();
         $("#uniq16784632278721").setValue("картинки автомобилей");
         $(".mini-suggest__button").click();
         testConfig();

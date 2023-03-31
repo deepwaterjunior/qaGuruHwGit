@@ -10,7 +10,7 @@ public class TestSomething extends TestBase {
 
         open("/search");
 
-        // test commit
+        // test commit1
         $("#uniq16784632278721").click();
         $("#uniq16784632278721").setValue("картинки автомобилей");
         $(".mini-suggest__button").click();

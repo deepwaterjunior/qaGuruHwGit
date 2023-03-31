@@ -13,20 +13,9 @@ public class TestSomething extends TestBase {
         open("/search");
 
         // test commit1234543
-        $("#uniq16784632278721").click();
-<<<<<<< HEAD
-
-
-        System.out.println("test-test");
-        System.out.println("lan");
-        Scanner scanner = new Scanner("");
-        String text = scanner.nextLine();
-        System.out.println(text);
-=======
         $("#uniq16784632278721").setValue("картинки автомобилей");
         $(".mini-suggest__button").click();
         testConfig();
->>>>>>> master
 
     }
 
